@@ -1,0 +1,164 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:not(.btn) {
+  color: #006600; text-decoration: none;
+}
+a:not(.btn):hover {
+  color: #008800; text-decoration: underline;
+}
+body {
+  color: #000;
+}
+body.bg {
+  background: #effce0;
+}
+#sp-header-wrapper {
+  background-color: #EFFCE0; /*background-image: url("../../images/presets/preset1/fone-eger.jpg"); background-position: right top;
+  /*background-image: -moz-linear-gradient(top,#ffffff,#effce0);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#effce0));
+  background-image: -webkit-linear-gradient(top,#ffffff,#effce0);
+  background-image: -o-linear-gradient(top,#ffffff,#effce0);
+  background-image: linear-gradient(to bottom,#ffffff,#effce0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffeffce0', GradientType=0);*/
+}
+#sp-header-wrapper .logo {
+  background-image: url("");
+}
+#sp-feature-wrapper {
+  background-color: #9BC780; background-image: url("fone-eger3.jpg"); background-position: center center; background-repeat: repeat-x;
+  /*background-image: -moz-linear-gradient(top,#025591,#011a2c);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#025591),to(#011a2c));
+  background-image: -webkit-linear-gradient(top,#025591,#011a2c);
+  background-image: -o-linear-gradient(top,#025591,#011a2c);
+  background-image: linear-gradient(to bottom,#025591,#011a2c);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff025591', endColorstr='#ff001a2c', GradientType=0);*/
+}
+#sp-feature-wrapper a:not(.btn) {
+  color: #0390f6;
+}
+#sp-feature-wrapper a:not(.btn):hover {
+  color: #62bcfd;
+}
+.module.highlighted {
+  background: #3498DB;
+}
+.module.highlighted a {
+  color: #fff !important;
+}
+#sp-bottom-wrapper,
+#sp-footer-wrapper {
+  /*background: #000000;*/ background-color: #9BC780; background-image: url("fone-eger.jpg"); background-position: center bottom; background-repeat: repeat-x;
+  color: #fff;
+}
+#sp-bottom-wrapper h3,
+#sp-footer-wrapper h3 {
+  color: #fff;
+}
+#sp-bottom-wrapper a:not(.btn),
+#sp-footer-wrapper a:not(.btn) {
+  color: #0372c3;
+}
+#sp-bottom-wrapper a:not(.btn):hover,
+#sp-footer-wrapper a:not(.btn):hover {
+  color: #30a6fc;
+}
+#sp-footer-wrapper {
+  border-top: 1px solid #000000;
+}
+#sp-footer-wrapper::after {
+  background: #00111d;
+}
+.sp-border {
+  border-top: 1px solid #000000;
+}
+.sp-border::after {
+  background: #00111d;
+}
+.btn-primary,
+button,
+input[type='submit'],
+input[type='button'],
+submit {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #006600;
+  background-image: -moz-linear-gradient(top,#006600,#008800);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#006600),to(#008800));
+  background-image: -webkit-linear-gradient(top,#006600,#008800);
+  background-image: -o-linear-gradient(top,#006600,#008800);
+  background-image: linear-gradient(to bottom,#006600,#008800);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff006600', endColorstr='#ff010d91', GradientType=0);
+  border-color: #008800 #008800 #010646;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  *background-color: #008800;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled],
+button:hover,
+button:active,
+button.active,
+button.disabled,
+button[disabled],
+input[type='submit']:hover,
+input[type='submit']:active,
+input[type='submit'].active,
+input[type='submit'].disabled,
+input[type='submit'][disabled],
+input[type='button']:hover,
+input[type='button']:active,
+input[type='button'].active,
+input[type='button'].disabled,
+input[type='button'][disabled],
+submit:hover,
+submit:active,
+submit.active,
+submit.disabled,
+submit[disabled] {
+  color: #fff;
+  background-color: #008800;
+  *background-color: #020b78;
+}
+.btn-primary:active,
+.btn-primary.active,
+button:active,
+button.active,
+input[type='submit']:active,
+input[type='submit'].active,
+input[type='button']:active,
+input[type='button'].active,
+submit:active,
+submit.active {
+  background-color: #01095f \9;
+}
